@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60163CCA2AB7BA88AAF3D15D /* Pods_GraphQL_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046A21294B07436C7E238ADC /* Pods_GraphQL_Demo.framework */; };
+		D239039C1D79E299006F252E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239039B1D79E299006F252E /* AppDelegate.swift */; };
+		D239039E1D79E299006F252E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239039D1D79E299006F252E /* ViewController.swift */; };
+		D23903A11D79E299006F252E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D239039F1D79E299006F252E /* Main.storyboard */; };
+		D23903A31D79E299006F252E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23903A21D79E299006F252E /* Assets.xcassets */; };
+		D23903A61D79E299006F252E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23903A41D79E299006F252E /* LaunchScreen.storyboard */; };
+		D23903AF1D79E3A1006F252E /* AlbumMembership.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903AE1D79E3A1006F252E /* AlbumMembership.swift */; };
+		D23903B11D7E68EF006F252E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903B01D7E68EF006F252E /* Album.swift */; };
+		D23903B31D7E6DDD006F252E /* AlbumMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903B21D7E6DDD006F252E /* AlbumMatch.swift */; };
+		D23903B51D7E6E10006F252E /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903B41D7E6E10006F252E /* Account.swift */; };
+		D23903B71D7E6E4A006F252E /* PhotoUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903B61D7E6E4A006F252E /* PhotoUrl.swift */; };
+		D23903B91D7E6FAE006F252E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903B81D7E6FAE006F252E /* Photo.swift */; };
+		D23903BB1D7E70C6006F252E /* PhotoCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903BA1D7E70C6006F252E /* PhotoCount.swift */; };
+		D23903BD1D7E717D006F252E /* CoverPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903BC1D7E717D006F252E /* CoverPhotos.swift */; };
+		D23903C21D7E7306006F252E /* AlbumMembershipsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23903C11D7E7306006F252E /* AlbumMembershipsResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046A21294B07436C7E238ADC /* Pods_GraphQL_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GraphQL_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F5007F8F240E8AC94D6531 /* Pods-GraphQL Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL Demo/Pods-GraphQL Demo.release.xcconfig"; sourceTree = "<group>"; };
+		A7C4A9D8FA840ACB4BC1021E /* Pods-GraphQL Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQL Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraphQL Demo/Pods-GraphQL Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D23903981D79E299006F252E /* GraphQL Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GraphQL Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D239039B1D79E299006F252E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D239039D1D79E299006F252E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D23903A01D79E299006F252E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D23903A21D79E299006F252E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D23903A51D79E299006F252E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D23903A71D79E299006F252E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23903AE1D79E3A1006F252E /* AlbumMembership.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumMembership.swift; sourceTree = "<group>"; };
+		D23903B01D7E68EF006F252E /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		D23903B21D7E6DDD006F252E /* AlbumMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumMatch.swift; sourceTree = "<group>"; };
+		D23903B41D7E6E10006F252E /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		D23903B61D7E6E4A006F252E /* PhotoUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoUrl.swift; sourceTree = "<group>"; };
+		D23903B81D7E6FAE006F252E /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D23903BA1D7E70C6006F252E /* PhotoCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCount.swift; sourceTree = "<group>"; };
+		D23903BC1D7E717D006F252E /* CoverPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverPhotos.swift; sourceTree = "<group>"; };
+		D23903C11D7E7306006F252E /* AlbumMembershipsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumMembershipsResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23903951D79E299006F252E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60163CCA2AB7BA88AAF3D15D /* Pods_GraphQL_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1A14A73DA6CBC85950A007 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7C4A9D8FA840ACB4BC1021E /* Pods-GraphQL Demo.debug.xcconfig */,
+				45F5007F8F240E8AC94D6531 /* Pods-GraphQL Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D239038F1D79E299006F252E = {
+			isa = PBXGroup;
+			children = (
+				D239039A1D79E299006F252E /* GraphQL Demo */,
+				D23903991D79E299006F252E /* Products */,
+				2E1A14A73DA6CBC85950A007 /* Pods */,
+				D80A2AB78D28EDCD03A4144A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D23903991D79E299006F252E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23903981D79E299006F252E /* GraphQL Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D239039A1D79E299006F252E /* GraphQL Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D23903AD1D79E380006F252E /* Models */,
+				D239039B1D79E299006F252E /* AppDelegate.swift */,
+				D239039D1D79E299006F252E /* ViewController.swift */,
+				D239039F1D79E299006F252E /* Main.storyboard */,
+				D23903A21D79E299006F252E /* Assets.xcassets */,
+				D23903A41D79E299006F252E /* LaunchScreen.storyboard */,
+				D23903A71D79E299006F252E /* Info.plist */,
+			);
+			path = "GraphQL Demo";
+			sourceTree = "<group>";
+		};
+		D23903AD1D79E380006F252E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D23903C01D7E72DF006F252E /* Responses */,
+				D23903AE1D79E3A1006F252E /* AlbumMembership.swift */,
+				D23903B01D7E68EF006F252E /* Album.swift */,
+				D23903B21D7E6DDD006F252E /* AlbumMatch.swift */,
+				D23903B41D7E6E10006F252E /* Account.swift */,
+				D23903B61D7E6E4A006F252E /* PhotoUrl.swift */,
+				D23903B81D7E6FAE006F252E /* Photo.swift */,
+				D23903BA1D7E70C6006F252E /* PhotoCount.swift */,
+				D23903BC1D7E717D006F252E /* CoverPhotos.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D23903C01D7E72DF006F252E /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				D23903C11D7E7306006F252E /* AlbumMembershipsResponse.swift */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+		D80A2AB78D28EDCD03A4144A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046A21294B07436C7E238ADC /* Pods_GraphQL_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23903971D79E299006F252E /* GraphQL Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23903AA1D79E299006F252E /* Build configuration list for PBXNativeTarget "GraphQL Demo" */;
+			buildPhases = (
+				7E1A66B2A7C582D0579ABA03 /* 📦 Check Pods Manifest.lock */,
+				D23903941D79E299006F252E /* Sources */,
+				D23903951D79E299006F252E /* Frameworks */,
+				D23903961D79E299006F252E /* Resources */,
+				15DD974FB078509C0A3F21B6 /* 📦 Embed Pods Frameworks */,
+				A62A073A22B95FBE7BFCC268 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GraphQL Demo";
+			productName = "GraphQL Demo";
+			productReference = D23903981D79E299006F252E /* GraphQL Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23903901D79E299006F252E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Devs On Tap";
+				TargetAttributes = {
+					D23903971D79E299006F252E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D23903931D79E299006F252E /* Build configuration list for PBXProject "GraphQL Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D239038F1D79E299006F252E;
+			productRefGroup = D23903991D79E299006F252E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23903971D79E299006F252E /* GraphQL Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23903961D79E299006F252E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23903A61D79E299006F252E /* LaunchScreen.storyboard in Resources */,
+				D23903A31D79E299006F252E /* Assets.xcassets in Resources */,
+				D23903A11D79E299006F252E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15DD974FB078509C0A3F21B6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL Demo/Pods-GraphQL Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1A66B2A7C582D0579ABA03 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A62A073A22B95FBE7BFCC268 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraphQL Demo/Pods-GraphQL Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23903941D79E299006F252E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23903C21D7E7306006F252E /* AlbumMembershipsResponse.swift in Sources */,
+				D23903B91D7E6FAE006F252E /* Photo.swift in Sources */,
+				D239039E1D79E299006F252E /* ViewController.swift in Sources */,
+				D239039C1D79E299006F252E /* AppDelegate.swift in Sources */,
+				D23903B31D7E6DDD006F252E /* AlbumMatch.swift in Sources */,
+				D23903B71D7E6E4A006F252E /* PhotoUrl.swift in Sources */,
+				D23903AF1D79E3A1006F252E /* AlbumMembership.swift in Sources */,
+				D23903B11D7E68EF006F252E /* Album.swift in Sources */,
+				D23903B51D7E6E10006F252E /* Account.swift in Sources */,
+				D23903BD1D7E717D006F252E /* CoverPhotos.swift in Sources */,
+				D23903BB1D7E70C6006F252E /* PhotoCount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D239039F1D79E299006F252E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23903A01D79E299006F252E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D23903A41D79E299006F252E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23903A51D79E299006F252E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D23903A81D79E299006F252E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D23903A91D79E299006F252E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23903AB1D79E299006F252E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C4A9D8FA840ACB4BC1021E /* Pods-GraphQL Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GraphQL Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devsontap.graphql.GraphQL-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D23903AC1D79E299006F252E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F5007F8F240E8AC94D6531 /* Pods-GraphQL Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GraphQL Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devsontap.graphql.GraphQL-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23903931D79E299006F252E /* Build configuration list for PBXProject "GraphQL Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23903A81D79E299006F252E /* Debug */,
+				D23903A91D79E299006F252E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23903AA1D79E299006F252E /* Build configuration list for PBXNativeTarget "GraphQL Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23903AB1D79E299006F252E /* Debug */,
+				D23903AC1D79E299006F252E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23903901D79E299006F252E /* Project object */;
+}
